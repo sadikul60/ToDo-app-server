@@ -19,7 +19,7 @@ async function run() {
     try{
         const toDosCollection = client.db('ToDoApp').collection('toDos');
 
-        // get items 
+        // get items hi ami akkas ali, ami akjon web developer
         app.get('/items', async(req, res) => {
             const query = {};
             const items = await toDosCollection.find(query).toArray();
